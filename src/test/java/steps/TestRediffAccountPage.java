@@ -12,13 +12,13 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class TestRediffAccountPage {
-	WebDriver driver;
+WebDriver driver;
 	
 	
 	@Given("User Opens chrome Browser")
 	public void open_Browser()
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\91630\\eclipse-workspace\\ATE-Phase2-Cucumber-Extentreports-Jenkins");)
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\91630\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
