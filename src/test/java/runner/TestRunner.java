@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		plugin= {"pretty","html:target/cucumberreport.html",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"timeline:test-output-thread/"
-		}
+		}	
 		
 		)
 
